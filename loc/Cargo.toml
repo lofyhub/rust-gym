@@ -1,0 +1,18 @@
+[package]
+name = "loc"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "loc"
+path = "src/lib.rs"
+
+[[bin]]
+name = "loc-bin"
+path = "src/main.rs"
+
+[dependencies]
+walkdir = "2.5.0"
+
+[profile.release]
+debug = true

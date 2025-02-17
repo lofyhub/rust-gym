@@ -1,0 +1,48 @@
+# Compiled output
+/target/
+**/*.rs.bk
+
+# Cargo.lock can be ignored for library projects
+# but should be included in binary projects
+# Uncomment the following line if you want to ignore it
+# Cargo.lock
+
+# Backup files
+*~
+*.swp
+*.swo
+*.orig
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Rust-specific files
+**/*.rs.bk
+**/*.dSYM
+
+# Build artifacts
+*.rlib
+*.so
+*.dylib
+*.dll
+
+# Coverage reports
+/coverage/
+*.gcov
+*.gcda
+*.gcno
+
+# Other potential files to ignore
+*.log
+*.out
+*.tmp
+*.temp
+
+# TensorFlow directory - used tensorflow github repository for testing this app so not needed to push this large repo
+/tensorflow/
+
+# Cargo config files
+Cargo.toml.orig
+Cargo.lock.orig
